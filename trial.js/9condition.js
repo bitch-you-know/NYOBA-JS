@@ -15,22 +15,17 @@
 // 
 
 
-const myAnswer = "a"
+const score = 40
 
-switch(myAnswer){
-
-    case "a":
-    console.log("jawaban salah")
-    break
-
-    case "b":
-        console.log("jawaban benar")
-        break
-    case "c":
-       console.log("jawaban salah")
-        break
-
-     case "a":
-         console.log("jawaban salah")
-         break
+if (score>= 66){
+   console.log("A")
+}
+else if (score >= 70){
+console.log ("B")
+}
+else if(score >= 50) {
+    console.log("C")
+}
+else if(score >= 40){
+    console.log("D")
 }

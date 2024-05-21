@@ -14,10 +14,13 @@
 //     console.log("Boleh bikin SIM");
 // } else {
 //     console.log("Tidak boleh");
-// }
+//let
 
-let enigma = "Enigma Bootcamp Keren"
-let kata   = "Mantap!"
 
-let stringMethode="Awesome is "+ enigma.slice(0,15)+", " + kata.toUpperCase()
-console.log(stringMethode)
+let x = 0
+let y = null
+
+x = Boolean(x)
+y=  Boolean(y)
+let result =  x==y
+console.log(result)
