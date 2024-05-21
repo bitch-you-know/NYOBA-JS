@@ -8,6 +8,7 @@
 //   value tersebut 
 
 //   contoh untuk membuat awalan value gunakan cari aja di string manipulation  ada art nya gitu
+     dengan mengunakan Math.   ATAU TITIK 
 
 
 //   untuk memotong atau mengambil hanya sebagaian dari sttring ktia bisa menggunakan
@@ -19,3 +20,8 @@ let kata   =" Mantap !"
 let stringMethode ="Awesome is " + enigma.slice(0,14)+kata
 
 console.log (stringMethode)
+
+enigma.slice() 
+enigma.charAt
+enigma.toUpperCase
+enigma.toLowerCase
