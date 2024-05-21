@@ -7,6 +7,17 @@
 // // let result = Math.floor(w) + Math.floor(z)+m+ Number(x)
 
 // console.log(Math.floor(w)+Math.floor(z)+String(m)+x)
-let babi =9
+// const age = 22;
+// const lulusUjian = false;
 
-console.log (babi)
+// if (age >= 17 && lulusUjian) {
+//     console.log("Boleh bikin SIM");
+// } else {
+//     console.log("Tidak boleh");
+// }
+
+let enigma = "Enigma Bootcamp Keren"
+let kata   = "Mantap!"
+
+let stringMethode="Awesome is "+ enigma.slice(0,15)+", " + kata.toUpperCase()
+console.log(stringMethode)
