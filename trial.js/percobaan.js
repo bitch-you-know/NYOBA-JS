@@ -17,10 +17,9 @@
 //let
 
 
-let x = 0
-let y = null
+let score = 66
 
-x = Boolean(x)
-y=  Boolean(y)
-let result =  x==y
-console.log(result)
+if (score>=80){
+    console.log(c)
+    
+}

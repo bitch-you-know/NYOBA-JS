@@ -21,7 +21,7 @@ let stringMethode ="Awesome is " + enigma.slice(0,14)+kata
 
 console.log (stringMethode)
 
-enigma.slice() 
+enigma.slice(kasih angka) 
 enigma.charAt
-enigma.toUpperCase
-enigma.toLowerCase
+enigma.toUpperCase()
+enigma.toLowerCase()
