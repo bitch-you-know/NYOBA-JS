@@ -1,8 +1,16 @@
-function kuba(){
-  const name = "jingga"
-  const age = 28
-    
-    console.log(kuba ())
+function sum (x,y){
+  return x+y
 }
 
-kuba()
+console.log(sum(3,3))
+
+//=================================================
+function greetName (){
+   let names= "cahyadi"
+   let age = 24
+      
+  console.log(`hey, ${names}`)
+  console.log(`umurkamu sekarang ${age}`)
+}
+
+greetName()

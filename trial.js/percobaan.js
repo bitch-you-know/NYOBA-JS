@@ -76,11 +76,18 @@
    
    //    i++
    // }
-   function camp(value) {
-      const campVar = value
-      const campInd = campVar[3]
-      console.log(campInd)
-    }
+  //  function camp(value) {
+  //     const campVar = value
+  //     const campInd = campVar[3]
+  //     console.log(campInd)
+  //   }
   
-  camp(["Enigma", "Camp", "Code", "Node","Javascript"]);
+  // camp(["Enigma", "Camp", "Code", "Node","Javascript"]);
+
+  let enigma = "Enigma BotCamp Keren"
+  let kata ="Mantap !"
+let stringMethode = "Awesome is "+enigma.slice(0,14)+" "+kata.toUpperCase()
+
+
+  console.log(stringMethode)
   
