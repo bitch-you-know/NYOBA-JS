@@ -5,8 +5,9 @@
 
 for (let i = 0; i <5 ; i ++){
     if (i=== 3){
-        // break berhentiin looping
-        continue // sikp pengulangan yang di tentukan
+        continue
+      //berhentiin looping
+        //continue // sikp pengulangan yang di tentukan
        }
     console.log("masuk loop")
     console.log("i = "+ i) 
