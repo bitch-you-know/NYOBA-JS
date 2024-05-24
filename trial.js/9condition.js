@@ -15,17 +15,29 @@
 // 
 
 
-const score = 40
+// const score = 40
 
-if (score>= 66){
-   console.log("A")
-}
-else if (score >= 70){
-console.log ("B")
-}
-else if(score >= 50) {
-    console.log("C")
-}
-else if(score >= 40){
-    console.log("D")
+// if (score>= 66){
+//    console.log("A")
+// }
+// else if (score >= 70){                   //if
+// console.log ("B")
+// }
+// else if(score >= 50) {
+//     console.log("C")
+// }
+// else if(score >= 40){
+//     console.log("D")
+// }
+
+
+let jawaban = ("D")
+
+switch (jawaban){
+  case "D":
+    console.log("JAWABAN anda salah");        // switch
+    break
+    case"C":
+    console.log("jawaban benar");
+
 }

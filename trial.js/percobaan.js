@@ -84,10 +84,25 @@
   
   // camp(["Enigma", "Camp", "Code", "Node","Javascript"]);
 
-  let enigma = "Enigma BotCamp Keren"
-  let kata ="Mantap !"
-let stringMethode = "Awesome is "+enigma.slice(0,14)+" "+kata.toUpperCase()
+//   let enigma = "Enigma BotCamp Keren"
+//   let kata ="Mantap !"
+// let stringMethode = "Awesome is "+enigma.slice(0,14)+" "+kata.toUpperCase()
 
 
-  console.log(stringMethode)
-  
+//   console.log(stringMethode)
+
+// const sum = (x,y) => x+y ;
+// console.log(sum())
+// const student = (value) => {
+//   const studentVar = value
+//   const arraySlice = studentVar.slice(1);
+//   return studentVar
+// }
+// console.log(student(["budi","dayat","hamid","dodi","farhan"]));
+
+const camp = (value) ... {
+  const campFunct = value;
+  const campInd = arrayFunct[3];
+  return campInd;
+}
+console.log(camp(["Enigma", "Camp", "Code", "Node","Javascript"]));
