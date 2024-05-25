@@ -1,16 +1,22 @@
-function sum (x,y){
-  return x+y
-}
+// function sum (x,y){
+//   return x+y
+// }
 
-console.log(sum(3,3))
+// console.log(sum(3,3))
 
 //=================================================
-function greetName (){
-   let names= "cahyadi"
-   let age = 24
+function greetName (names,umur){
+
       
-  console.log(`hey, ${names}`)
-  console.log(`umurkamu sekarang ${age}`)
+  console.log(`hey, ${names},umur kamu sekarang ${umur}`)
 }
 
-greetName()
+greetName("andi",23)
+greetName("budi",60)
+
+//=================================================
+
+// function sum (L,M) => {
+//   return L+M 
+//   console.log()
+// }
