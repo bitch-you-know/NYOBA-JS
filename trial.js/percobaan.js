@@ -118,17 +118,57 @@
 
 
 
-let laptop = ["asus", "lenovo", "acer", "hp", "axioo"];
+// let laptop = ["asus", "lenovo", "acer", "hp", "axioo"];
 
-let gpu = [4070, 4090, 4050, 4080, 4060];
+// let gpu = [4070, 4090, 4050, 4080, 4060];
 
-function laptopGpu(valueLaptop,valueGpu){
-    valueLaptop.sort()
-    valueGpu.sort()
-   let result=[]
-    for(let i=0;i<valueLaptop.length && valueGpu.length;i++){
-      result.push(`{${valueLaptop[i]} dengan gpu ${valueGpu[i]}}`)    
-    }
-    return result
+// function laptopGpu(valueLaptop,valueGpu){
+//     valueLaptop.sort()
+//     valueGpu.sort()
+//    let result=[]
+//     for(let i=0;i<valueLaptop.length && valueGpu.length;i++){
+//       result.push(`{${valueLaptop[i]} dengan gpu ${valueGpu[i]}}`)    
+//     }
+//     return result
+// }
+// console.log(laptopGpu(laptop,gpu))
+
+// let asd = ["abi","cindy","livi","hanny"]
+// let numbers= [2,4,5345,656,76,,32] 
+
+// let result =[]
+
+// function jalal (inikeluar,inimasuk){
+//   for (let i=0;i<inikeluar.length && inimasuk.length;i++){
+//     result.push(`${inikeluar[0]}`)
+//   }
+
+//   return result
+
+// }
+
+// console.log(jalal(asd,numbers))
+
+let hari = new Date().getDay()
+
+if (hari==1){
+console.log("ini hari senin")
 }
-console.log(laptopGpu(laptop,gpu))
+else if (hari=2){
+console.log("ini hari selasa")
+}
+else if(hari=3){
+    console.log("ini hari rabu")
+}
+else if (hari =4){
+    console.log("ini hari kamis")
+}
+else if (hari = 5){
+    console.log("ini hari jumat")
+}
+else if(hari =6){
+    console.log("ini hari sabtu")
+}
+else if(hari=7){
+    console.log("ini hari minggu")
+}
