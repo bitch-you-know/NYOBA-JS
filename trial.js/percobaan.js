@@ -176,13 +176,56 @@
 
 // console.log(rumah.Alamat)
 
+// function beliMobil(gaji) {
+//     const objectMobil = {
+//         gaji1: { Merek: "Toyota", Nama: "Rush", Mesin: 1500, Harga: 200000000, Tahun: 2023 },
+//         gaji2: { Merek: "Toyota", Nama: "Ayla", Mesin: 1200, Harga: 150000000, Tahun: 2027 },
+//         gaji3: { Merek: "Toyota", Nama: "Fortuner", Mesin: 2000, HARGA: 500000000, Tahun: 2027 }
+//     }
+//     if (gaji === 30_000_000) {
+//         return objectMobil.gaji2
+
+//     }
+//     else if (gaji === 50_000_000) {
+//         return objectMobil.gaji3
+//     }
+//     else {
+//         return objectMobil.gaji1
+//     }
+// }
+
+// console.log(beliMobil())
 
 
-let beliMobil=function(gaji){
-    if(gaji>=30000000){
-        return {jamal:lali}
+
+function beliMobil(gaji) {
+    let objectMobil = {
+        Merek: "Toyota",
+        Nama: "Rush",
+        Mesin: 1500,
+        Harga: 200000000,
+        Tahun: 2023
+    };
+
+    if (gaji >= 50000000) {
+        objectMobil = {
+            Merek: "Toyota",
+            Nama: "Fortuner",
+            Mesin: 2000,
+            Harga: 500000000,
+            Tahun: 2027
+        }
+    } else if (gaji >= 30000000) {
+        objectMobil = {
+            Merek: "Toyota",
+            Nama: "Ayla",
+            Mesin: 1200,
+            Harga: 150000000,
+            Tahun: 2027
+        }
     }
+    return objectMobil
 }
 
+console.log(beliMobil())
 
-beliMobil(30000000)
