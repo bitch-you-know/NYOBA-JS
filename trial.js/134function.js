@@ -12,7 +12,6 @@ function greetName (names,umur){
 }
 
 greetName("andi",23)
-greetName("budi",60)
 
 //=================================================
 

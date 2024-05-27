@@ -148,27 +148,41 @@
 // }
 
 // console.log(jalal(asd,numbers))
+// const rumah = {
+//     Panjang : 25,
+//     Lebar: 10,
+//     Alamat: "Jakarta",
+//     Harga: 1_500_000_000,
+//     Pajak:function(){return this.Harga*0.02}
+// }
+// console.log(rumah.Pajak())
 
-let hari = new Date().getDay()
 
-if (hari==1){
-console.log("ini hari senin")
+// const rumah = {
+//     Panjang: 25,
+//     Lebar: 10,
+//     Alamat: {
+//         Provinsi: "DKI Jakarta",
+//         Kota: "Jakarta Selatan",
+//         Kecamatan: "Pasar Minggu"
+//     },
+//     Harga: 1_500_000_000,
+//     Cicilan: 30_000_000,
+//     DP: 200_000_000
+// }
+// rumah.Alamat.Kecamatan="Ciracas"
+// delete rumah.Alamat.Kecamatan
+// rumah.Alamat.Kota="Jakarta Timur"
+
+// console.log(rumah.Alamat)
+
+
+
+let beliMobil=function(gaji){
+    if(gaji>=30000000){
+        return {jamal:lali}
+    }
 }
-else if (hari=2){
-console.log("ini hari selasa")
-}
-else if(hari=3){
-    console.log("ini hari rabu")
-}
-else if (hari =4){
-    console.log("ini hari kamis")
-}
-else if (hari = 5){
-    console.log("ini hari jumat")
-}
-else if(hari =6){
-    console.log("ini hari sabtu")
-}
-else if(hari=7){
-    console.log("ini hari minggu")
-}
+
+
+beliMobil(30000000)
