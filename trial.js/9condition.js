@@ -34,10 +34,16 @@
 let jawaban = ("D")
 
 switch (jawaban){
-  case "D":
-    console.log("JAWABAN anda salah");        // switch
-    break
-    case"C":
-    console.log("jawaban benar");
+       case "D":
+              console.log("JAWABAN anda salah");        // switch
+           break
+       case"B":
+              console.log("jawaban benar");
+            break
+       case "C":    
+              console.log("jawaban benar");
+           break;
+ defaultlt:
+ console.log
 
 }

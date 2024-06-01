@@ -29,12 +29,12 @@
 // calculate(5,5,sum)
 
 
-// const calculate =(x,y,callback)=>{
-// return callback(x,y);
+const calculate =(x,y,callback)=>{
+return callback(x,y);
 
-// }
-// const sum =(a,b) => a+b ;
-// console.log(calculate(5,5,sum))
+}
+const sum =(a,b) => a+b ;
+console.log(calculate(5,5,sum))
 
 const names =(x,callback) =>  
 {   return callback(x)

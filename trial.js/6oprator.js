@@ -12,3 +12,13 @@
 // untuk menyatakan nilai tidak sama dengan tipe (!==)
 // untuk membuat hasil true maka hasil result harus sama (&)
 // untuk membuat hasil true maka hasil akhir harus true jika ada perbedaan didalam tidak apa apa(||)
+//===================================================================
+//lebih besar (>)
+//lebih kecil (<)
+//lebih besar atau sama dengan (>=)
+//kurang dari atau sama dengan (<=)
+//====================================================================
+
+//sama dengan (==)    sama dengan nilai dan type nya (===)
+//tidak sama dengan (!=) tidak sama dengan nilai dan tipenya (!==)
+

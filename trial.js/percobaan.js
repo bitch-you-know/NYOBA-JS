@@ -178,11 +178,32 @@
 
 
 
-let beliMobil=function(gaji){
-    if(gaji>=30000000){
-        return {jamal:lali}
-    }
-}
+// https://codesaya.com/diskusi/d/function-dan-if-else-java-script-ndxxisbwqh/
 
-
-beliMobil(30000000)
+const biografi = [{
+    Nama: "Hamdi",
+    Umur: 26,
+    Alamat: {
+        Profinsi: "Jawa Barat",
+        Kota:"Bandung"
+    },
+    Pekerjaan: "Programmer",
+}, {
+    Nama: "Hamka",
+    Umur: 27,
+    Alamat: {
+        Profinsi: "DKI Jakarta",
+        Kota:"Jakarta Selatan"
+    },
+    Pekerjaan: "Wirausaha",
+}, {
+    Nama: "Rudi",
+    Umur: 27,
+    Alamat: {
+        Profinsi: "Jawa Tengah",
+        Kota:"Semarang"
+    },
+    Pekerjaan: "Wiraswasta",
+}]
+biografi[0].Nama="Yusuf"
+biografi[0].Pekerjaan="Ojek Online"

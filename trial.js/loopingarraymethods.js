@@ -20,9 +20,9 @@ const user = ["abi" , "ida" ,"junaedi","ikram","suep","jaja"]
     
 //  })
 
-// user.forEach((userName,index,) => {
+user.forEach((userName,index,) => {
     
-//         console.log(`index:${index}| userName: ${userName}`)    <<<<<<<<<<< .foreach
+        console.log(`index:${index}| userName: ${userName}`)   // <<<<<<<<<<< .foreach
 
 //     } )
 

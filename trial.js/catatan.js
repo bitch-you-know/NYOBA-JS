@@ -67,6 +67,17 @@
 // console.log(buahAkhrir)
 
 
+// CARA MENGGABUNGKAN ARRAY !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// const ["pisang","jeruk","mangga","pir"]
+
+
+
+
+
+
+
+
 
 
 

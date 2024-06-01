@@ -64,8 +64,8 @@
 //               number:"21 A.G",
 //             streetName:"jalan kenangan"
 //         }
-            
-        
+
+
 
 //     },
 //     nickName:["to","kaka","pakhokage"] 
@@ -89,8 +89,8 @@
 //               number:"21 A.G",
 //             streetName:"jalan kenangan"
 //         }
-            
-        
+
+
 
 //     },
 //     nickName:["to","kaka","pakhokage"] ,       //MENGGUNAKAN ARROW FUNCTION
@@ -115,8 +115,8 @@
 //               number:"21 A.G",
 //             streetName:"jalan kenangan"
 //         }
-            
-        
+
+
 
 //     },
 //     nickName:["to","kaka","pakhokage"] ,
@@ -137,31 +137,35 @@ const user = {
     username: "doraemon",
     age: 20,
     addres: {
-        province:"banten",
-        city:"tangerang",
-        postcode:15000,
-        street:{
-              number:"21 A.G",
-            streetName:"jalan kenangan"
+        province: "banten",
+        city: "tangerang",
+        postcode: 15000,
+        street: {
+            number: "21 A.G",
+            streetName: "jalan kenangan"
         }
-            
-        
+
+
 
     },
-    nickName:["to","kaka","pakhokage"] ,
-    greeting:()=>{
+    nickName: ["to", "kaka", "pakhokage"],
+    greeting: () => {
         return "hello";
     },
-    introduction :function (){
+    introduction: function () {
         return `hello,my name is ${this.username}`      //<<<<<<<<<<<<<<<            //THIS ADALAH METH UNTUK OBJEK SAAT INI
     },
-    
+
 
 };
 
-console.log(Object.freeze(user))
+delete
+
+    console.log(user.greeting())
 
 
 // GUNAKAN DI CONSOLE.LOG(OBJECT.KEYS(USER))          UNTUK MENAMPILKAN Q NYAA  >>USERNAME AGE DLL
 // GUNAKAN DI CONSOLE.LOG(OBJECT.VALUE(USER))         UNTUK MENAMPILKAN VALUENYA >> DORAEMON BANTEN TANGERANG
 //GUNAKAN DI CONSOLE.LOG(OBJECT.FREEZ(USER))
+
+
