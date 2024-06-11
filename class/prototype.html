@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class User {
+            firstName = ""
+            lastName = ""
+            username = ""
+            age = 0
+
+
+            constructor(inputFirstName, inputLastName, valName, age) {
+                this.username = valName
+                this.age = age
+                this.firstName = inputFirstName
+                this.lastName = inputLastName
+            }
+            #getFullName() {
+                return `${this.firstName} ${this.lastName}`
+            }
+            greeting() {
+                return `${this.firstName} ${this.lastName}`
+            }
+            ntroduction(nama, umur) {
+                return `hallo nama saya ${this.username} dan umur saya ${this.age}`
+            }
+            introduction(nama, umur) {
+                return `hallo nama saya ${this.username} dan umur saya ${this.age}`
+            }
+        }
+        class Admin { }
+        Admin = User;
+
+        Admin.prototype.division = "finance"
+
+
+
+        const user1 = new Admin("doraemon", "epul", "seto", 27)
+        const user2 = new User("naruto",20,"naruto", "uzumaki",)
+
+
+        console.log(user1)
+        console.log(user2)
+
+
+    </script>
+</body>
+
+</html>
