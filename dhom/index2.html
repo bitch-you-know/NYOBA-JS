@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="countainer">
+        <div class="box">
+            <h1><span id="span">0</span> x 3</h1>
+            <input id="num" type="number">
+            <button onclick="btn()" class="btn">submit</button>
+        </div>
+        <div class="box">
+            <h1 id="hasil">hasil</h1>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script>
+        const rubah = "kamu tetot"
+        function btn() {
+            const valInput = document.getElementById("num").value;
+
+            const span = document.getElementById("span")
+            span.innerText = valInput
+
+            let sum = valInput * 3
+
+            document.getElementById("hasil").innerText = sum
+
+
+
+
+
+
+
+
+
+        }
+
+    </script>
+
+</body>
+
+</html>

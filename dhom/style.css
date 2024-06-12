@@ -1,0 +1,27 @@
+.countainer {
+    background-color: rgb(53, 117, 89);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+    background-color: rgb(40, 153, 235);
+    width: 300px;
+    height:200px;
+    border: 2px solid white;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.btn {
+    background-color: aqua;
+    width:110px;
+    border-radius:7px;
+    margin:5px;
+    
+}
