@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Project</title>
+</head>
+
+<body>
+  <h1>My Todo List</h1>
+
+  <h3>0 Items</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Activity</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="tdBody">
+
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>
+          <input id="todoInput" type="text" />
+        </td>
+        <td>
+          <button onclick="addItem()">Submit</button>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <script>
+    let listActivity = ["Bermain", "Belajar", "ngoding"]
+
+    function loadActivity() {
+      const valTdbody = document.getElementById("tdBody")
+      valTdbody.innerHTML = "";
+      listActivity.forEach((item, index) => {
+
+
+        const row = document.createElement("tr")
+        const newActivity = document.createElement("td")
+        const newButton = document.createElement("td")
+        const tdButton = document.createElement("button")
+
+
+
+        newActivity.innerText = item
+        tdButton.innerText = "HAPUS"
+
+        tdButton.onclick = function () {
+          const userConfirmation = confirm("yakin mau apus?");
+
+
+          if (userConfirmation) {
+            listActivity.splice(index, 1)
+            loadActivity()
+          }
+       
+        };
+
+
+        newButton.appendChild(tdButton)
+
+        row.appendChild(newActivity)
+        row.appendChild(newButton)
+        valTdbody.appendChild(row)
+      })
+    }
+
+
+    function addItem() {
+      const inputSelector = document.getElementById("todoInput")
+      const inputValue = inputSelector.value
+
+      listActivity.push(inputValue)
+      inputSelector.value = "";
+    loadActivity()
+
+    }
+
+    window.onload = function () {
+      loadActivity()
+    }
+  </script>
+</body>
+
+</html>

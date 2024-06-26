@@ -47,7 +47,7 @@
 //     handPhone.forEach((hp)=>{
 //         hasil.push(hp)
 //     }
-    
+
 //     )
 //   return hasil
 // }
@@ -66,7 +66,7 @@
 //        this.harga=inputHarga
 //     }
 //     getPajak(){
-            
+
 //     }
 
 
@@ -83,22 +83,33 @@
 // const carPajak =new SuratKendaraan(Toyota,2016,1500,300000000)
 
 
-function changingAddress(){
-    setTimeout(()=>{
-        console.log("changing address");
-    },1000);
-}
+// function changingAddress(){
+//     setTimeout(()=>{
+//         console.log("changing address");
+//     },1000);
+// }
 
-async function addressCheck (){
-    try{
-    const resultChanging = await changingAddress();
-        throw new Error(console.log("throw error"));
+// async function addressCheck (){
+//     try{
+//     const resultChanging = await changingAddress();
+//         throw new Error(console.log("throw error"));
 
-   
-    console.log(resultChanging);
-    }catch(error){
-        console.log(error);
-    }
-}
 
-addressCheck()
+//     console.log(resultChanging);
+//     }catch(error){
+//         console.log(error);
+//     }
+// }
+
+// addressCheck()
+let enigma = "Enigma Bootcamp Keren";
+let kata = "Mantap!"
+
+
+//Untuk melengkapi code diatas, buatlah code  untuk memanipulasi string dalam variabel stringMethode yang dapat merubah sebuah string "Enigma Bootcamp Keren" menjadi "Awesome is Enigma Bootcamp, MANTAP!"
+
+// lengkapi code mu disini
+
+let stringMethode=`Awesome is ${enigma.slice(0,15)} ${kata}`
+
+console.log(stringMethode);
