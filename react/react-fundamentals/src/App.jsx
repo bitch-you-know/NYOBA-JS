@@ -11,7 +11,7 @@ function App() {
   // const refInput=useRef()
 
   const [wishlistInput, setWishlistInput] = useState("")
-  const [itemsWishlist, setWishList] = useState([""])
+  const [itemsWishlist, setWishList] = useState([])
   
 
 
@@ -20,7 +20,7 @@ function App() {
     //  const newWishList=refInput.current.value;
     //  const newWishList=wishlistInput.current.value;
      setWishList([...itemsWishlist,wishlistInput]);
-     setWishlistInput("")
+   
      
   }
 
@@ -31,8 +31,9 @@ function App() {
     <>
       <div className='flex justifity-center text-center'>
         <Input onChange={(event) => {
-
-          setWishlistInput(event.target.value)
+            
+              setWishlistInput(event.target.value)
+  
         }} color='secondary' label="WishList" />
         <Button onClick={addWishList} color='primary' className="mt-2 text-center">Add</Button>
 
