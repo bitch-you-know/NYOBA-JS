@@ -2,6 +2,7 @@ import React from "react"
 import "../style/Footer.css"
 import { Button } from "@nextui-org/react"
 import { withAlert } from "../hoc/withAlert"
+import { withBackground } from "../hoc/withBackground"
 
 
 
@@ -23,6 +24,7 @@ class Footer extends React.Component{
        <h1>Hello Dunia</h1>
        <p>{this.props.message}</p>
        <p>{this.state.message}</p>
+       <p>{this.props.newprops}</p>
        <Button onClick={this.changeMessage}>Change Message</Button>
      </footer>
     )
@@ -32,4 +34,4 @@ class Footer extends React.Component{
 
 
 
-export default  withAlert(Footer)
+export default  withBackground(Footer)

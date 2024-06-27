@@ -1,5 +1,7 @@
 import { Button, Card, CardBody, CardFooter, CardHeader, Divider } from "@nextui-org/react"
 import { withAlert } from "../hoc/withAlert"
+import { withBackground } from "../hoc/withBackground"
+import Footer from "./Footer"
 
 const TodoCard =(props)=>{
     return(
@@ -25,4 +27,4 @@ const TodoCard =(props)=>{
     )
 }
 
-export default TodoCard
+export default withAlert(withBackground(TodoCard))

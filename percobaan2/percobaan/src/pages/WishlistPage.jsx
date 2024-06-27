@@ -1,6 +1,7 @@
 import { Button, Input } from "@nextui-org/react"
 import { useEffect, useState } from "react"
 import { axiosInstance } from "../lib/axsios"
+import { Link } from "react-router-dom"
 
 
 
@@ -43,6 +44,9 @@ function WishListPage() {
                     return <li>{item.name}</li>
                 })}
             </ul>
+            <div>
+                <Link to={"/"}>Counter</Link>
+            </div>
         </>
     )
 }
