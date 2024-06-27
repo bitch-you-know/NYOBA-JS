@@ -1,5 +1,5 @@
 const DEFAULT_STATE = {
-    count : 0,
+    count : 5,
 }
 
 export const counterReducer =(state = DEFAULT_STATE,action)=>{
