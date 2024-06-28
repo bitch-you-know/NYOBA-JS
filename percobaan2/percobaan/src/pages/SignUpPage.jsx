@@ -3,6 +3,8 @@ import { defaults } from "autoprefixer"
 import { Controller, useForm } from "react-hook-form"
 import { ZodBoolean, ZodString, boolean, string, z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
+import Header from "../components/Header"
+import { SignUpContextConsumer, SignUpContextProvider } from "../context/SignUpContext"
 
 
 
@@ -32,6 +34,17 @@ const SignUpPage =()=>{
 
 
 return (
+    <SignUpContextProvider value={{
+        title:"hello world"
+    }}>
+    <Header/>
+    <SignUpContextConsumer>
+        {
+            (context)=>{
+                return <p className="text-center font-semibold">{context.title}</p>
+            }
+        }
+    </SignUpContextConsumer>
     <div className="flex h-screen items-center justify-center">
         <Card className="w-[300px]">
             <CardHeader className="font-semibold text-lg">sign up !</CardHeader>
@@ -74,6 +87,7 @@ return (
             </CardBody>
         </Card>
     </div>
+    </SignUpContextProvider>
 )
 }
 
