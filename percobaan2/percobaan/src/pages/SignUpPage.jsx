@@ -5,6 +5,7 @@ import { ZodBoolean, ZodString, boolean, string, z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import Header from "../components/Header"
 import { SignUpContextConsumer, SignUpContextProvider } from "../context/SignUpContext"
+import { Link } from "react-router-dom"
 
 
 
@@ -80,7 +81,8 @@ return (
                     }}
                     />    
                     
-                    <Button type="submit" color="primary">Sign up</Button>
+                    <Button type="submit" color="primary">Sign up</Button>|
+                    <Link to={"/"}>To Count</Link>
 
                 </form>
                   
